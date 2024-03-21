@@ -17,3 +17,5 @@
    - 코드 작성 : (models -> )views -> templetes -> urls
    1. views
       1. _say_hello()_
+   2. urls 
+      1. _/playground/hello/_ -> _say_hello()_
