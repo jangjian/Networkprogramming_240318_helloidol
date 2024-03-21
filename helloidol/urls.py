@@ -20,5 +20,6 @@ import playground.views
 
 urlpatterns = [
     path('playground/hello/', playground.views.say_hello, name='playground_hello'),
+    path('playground/hello_html/', playground.views.say_hello_html, name='playground_hello_html'),
     path('admin/', admin.site.urls),
 ]
