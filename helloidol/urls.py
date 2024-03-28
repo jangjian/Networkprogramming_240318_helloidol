@@ -19,8 +19,8 @@ from django.urls import path, include
 import playground.views
 
 urlpatterns = [
-    # path('playground/', include('playground.urls')),  # 수정된 부분
-    path('playground/bye_html/', playground.views.say_bye_html, name='say_bye_html'),
+    path('playground/', include('playground.urls')),
+    path('티파이브/', include('티파이브.urls')),
     # () 없어야댐 say_hello() XXXXXXXXXX
     # path('playground/hello/', playground.views.say_hello, name='playground_hello'),
     # path('playground/hello_html/', playground.views.say_hello_html, name='playground_hello_html'),
