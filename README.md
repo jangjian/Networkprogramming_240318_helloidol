@@ -40,13 +40,14 @@
       1. 'T5', in INSTALLED_APPS
 6. T5
    1. views
-      1. show_박지훈()
-      2. show_김준규()
+      1. ~~show_박지훈()~~
+      2. ~~show_김준규()~~
       3. show_윤재혁()
       4. show_김도영()
       5. show_소정환()
       6. -> templates에 context 전달
       7. 정보를 하나로 묶고, 거기에서 꺼내오자
+      8. show_member
    2. templates/T5/
       1. ~~박지훈.html~~
          1. title : T5 - 박지훈
@@ -55,14 +56,15 @@
          4. img : 박지훈 프로필 사진
             1. boder-radius : 50%
       2. ~~김준규.html~~
-         1. ~~윤재혁.html~~
-         4.~~ 김도영.html~~
-      3. ~~소정환.html~~
-      4. 멤버.html
+      3. ~~윤재혁.html~~
+      4. ~~김도영.html~~
+      5. ~~소정환.html~~
+      6. 멤버.html
          1. group_name, name, img_src
    3. urls
-      1. T5/ -> 박지훈/ -> show_박지훈()
-      2. T5/ -> 김준규/ -> show_김준규()
+      1. ~~T5/ -> 박지훈/ -> show_박지훈()~~
+      2. ~~T5/ -> 김준규/ -> show_김준규()~~
       3. T5/ -> 윤재혁/ -> show_윤재혁()
       4. T5/ -> 김도영/ -> show_김도영()
       5. T5/ -> 소정환/ -> show_소정환()
+      6. 티파이브/ -> <member>/ -> show_멤버(멤버)
