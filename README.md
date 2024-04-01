@@ -46,6 +46,7 @@
       4. show_김도영()
       5. show_소정환()
       6. -> templates에 context 전달
+      7. 정보를 하나로 묶고, 거기에서 꺼내오자
    2. templates/T5/
       1. ~~박지훈.html~~
          1. title : T5 - 박지훈
