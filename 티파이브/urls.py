@@ -1,10 +1,10 @@
 from django.urls import path
 
-from playground import views
+from 티파이브 import views
 
 app_name = '티파이브'
 
 urlpatterns = [
-    path('jihoon/', views.jihoon, name='jihoon'),
-    path('junkyu/', views.junkyu, name='junkyu'),
+    path('jihoon/', views.show_jihoon, name='jihoon'),
+    path('junkyu/', views.show_junkyu, name='junkyu'),
 ]
