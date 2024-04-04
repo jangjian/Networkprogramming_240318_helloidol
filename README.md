@@ -63,6 +63,7 @@
       5. ~~소정환.html~~
       6. 멤버.html
          1. group_name, name, img_src
+      7. 멤버리스트.html
    3. urls
       1. ~~T5/ -> 박지훈/ -> show_박지훈()~~
       2. ~~T5/ -> 김준규/ -> show_김준규()~~
@@ -70,5 +71,6 @@
       4. ~~T5/ -> 김도영/ -> show_김도영()~~
       5. ~~T5/ -> 소정환/ -> show_소정환()~~
       6. 티파이브/ -> <member>/ -> show_멤버(멤버)
+      7. 티파이브/ -> 멤버리스트/ -> show_멤버리스트()
    4. static/티파이브/images/
       1. jihoon.jpg, junkyu.jpg, jaehyuk.jpg

@@ -19,6 +19,18 @@ group = {
             'name': '재혁',
             'img_src': '티파이브/images/jaehyuk.jpg'
             # 'img_src': 'https://i.pinimg.com/236x/e6/9a/81/e69a811a4784fcae63e7bfc358ab583b.jpg',
+        },
+        {
+            'group_name': 'T5',
+            'name': '도영',
+            'img_src': '티파이브/images/doyoung.jpg'
+            # 'img_src': 'https://i.pinimg.com/236x/e6/9a/81/e69a811a4784fcae63e7bfc358ab583b.jpg',
+        },
+        {
+            'group_name': 'T5',
+            'name': '정환',
+            'img_src': '티파이브/images/junghwan.jpg'
+            # 'img_src': 'https://i.pinimg.com/236x/e6/9a/81/e69a811a4784fcae63e7bfc358ab583b.jpg',
         }
     ]
 }
@@ -38,3 +50,7 @@ def show_jaehyuk(request):
 def show_member(request, member):
     context = list(filter(lambda mem: member in mem['name'], group['members']))[0]
     return render(request, '티파이브/member.html', context)
+
+def show_memberlists(request):
+    context = group     #{'members' : [{멤버1}, {멤버2},]}
+    return render(request, '티파이브/memberlists.html', context=context)
