@@ -19,8 +19,11 @@
     <tr>
         {% for member in members %}
         <tr>
-            <td>{{ member.group_name }}</td>
-            <td>{{ member.name }}</td>
+        {# 멤버이름에 링크 : 티파이브/지훈/ #}
+            <td><a href="http://localhost:8000/티파이브/{{ member.name }}/">{{ member.name }}</a> //: 인터넷 절대</td>
+            <td><a href="../../티파이브/{{ member.name }}/">{{ member.name }}</a> ../../:부모/부모/주소(상대)</td>
+            <td><a href="/티파이브/{{ member.name }}/">{{ member.name }}</a> /: 호스트 루트(호스트 절대)</td>
+            <td><a href="{% url '티파이브:member' member=member.name %}">{{ member.name }}</a></td>
             {% load static %}
             <td><img src="{% static member.img_src %}" style="height: 200px; border-radius: 10%" alt=""></td>
         </tr>
