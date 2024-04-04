@@ -42,12 +42,14 @@
    1. views
       1. ~~show_박지훈()~~
       2. ~~show_김준규()~~
-      3. show_윤재혁()
-      4. show_김도영()
-      5. show_소정환()
+      3. ~~show_윤재혁()~~
+      4. ~~show_김도영()~~
+      5. ~~show_소정환()~~
       6. -> templates에 context 전달
       7. 정보를 하나로 묶고, 거기에서 꺼내오자
-      8. show_member
+      8. show_member()
+      9. image link -> image file(static)
+      10. {% load static %} <img src="{% static img_src %}">
    2. templates/T5/
       1. ~~박지훈.html~~
          1. title : T5 - 박지훈
@@ -64,7 +66,9 @@
    3. urls
       1. ~~T5/ -> 박지훈/ -> show_박지훈()~~
       2. ~~T5/ -> 김준규/ -> show_김준규()~~
-      3. T5/ -> 윤재혁/ -> show_윤재혁()
-      4. T5/ -> 김도영/ -> show_김도영()
-      5. T5/ -> 소정환/ -> show_소정환()
+      3. ~~T5/ -> 윤재혁/ -> show_윤재혁()~~
+      4. ~~T5/ -> 김도영/ -> show_김도영()~~
+      5. ~~T5/ -> 소정환/ -> show_소정환()~~
       6. 티파이브/ -> <member>/ -> show_멤버(멤버)
+   4. static/티파이브/images/
+      1. jihoon.jpg, junkyu.jpg, jaehyuk.jpg
